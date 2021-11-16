@@ -1,236 +1,236 @@
 [[Xyce]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "b8b00ba2f2c147d44ca6545932b3370de251350c"
+git-tree-sha1 = "023b0ad912fdc1ee1bf6c4b145b5cc7e993d2763"
 libc = "glibc"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "50526c2527881f84acb25c7665e2af09808d57b869d38233d9a32029ba1ed53e"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "b7a25b95383e456607547f9f818e80e02fd457421b22717366ebbdca495a3d53"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.aarch64-linux-gnu-cxx03.tar.gz"
 [[Xyce]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "cc240db1f49bf483b8d24b32e9f42f96071f9d61"
+git-tree-sha1 = "bc8ccacc4845f99131513a6475de529d3057becb"
 libc = "glibc"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "d9f3138a9615ad1b530b8bac757cab4d1d6d1a945aa6b6da0a9144cbd941a28d"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "2466c6fd80f424077ba23c144517c47c83edefedade6ccadcfc8a345531e2f6f"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.aarch64-linux-gnu-cxx11.tar.gz"
 [[Xyce]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "24b9fd96e97e8077902cfca1811bf90870b5a62a"
+git-tree-sha1 = "e18b3c23f2d07e3cb0bfa4748b8e2d8036f0f49c"
 libc = "musl"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "c91fc46fa168690fc143f54aad231ef1cfe6f6004a2be26ef458fa3b7a6cde61"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.aarch64-linux-musl-cxx03.tar.gz"
+    sha256 = "eb3c43be4b61a58aa9cb4c119e7d51916bff3171b11428f73bca04c27b0c6f6d"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.aarch64-linux-musl-cxx03.tar.gz"
 [[Xyce]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "245c1b38a9fac7f894154e856d44e830c0087b90"
+git-tree-sha1 = "1c9297d0e67ff3e453f4a1a7a080ff47e54550c0"
 libc = "musl"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "f4e65e2c2f5b15fa23fd4695f30160c9b027651914f09d032dc354c5aa538ee6"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.aarch64-linux-musl-cxx11.tar.gz"
+    sha256 = "3b20c65ef60473cd2fd064899fcce8ef1d790670f25c743c34f05f1ce4a80682"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.aarch64-linux-musl-cxx11.tar.gz"
 [[Xyce]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "f7f45386f3a39a31fdf02b349c241dc0b2641981"
+git-tree-sha1 = "481831809660d89c3388ae45dde78267a5362dfd"
 libc = "glibc"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "3333bdf9752eac3cee012c7ec39fcc0b6bcefdccd142837f511876c71d9113c1"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "78ed644d8e838f7de0347c5eecbb43e16f36ce944295cf2bb252dc3e2b522574"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
 [[Xyce]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "80522c35be22321191e7d3a8b1755b2700612745"
+git-tree-sha1 = "f421572d67366bf16b535d41a11ecdb6e7985636"
 libc = "glibc"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "3adf006372142ed5502959ad38d33132ea20e63ffffb464b5c8b2d977c07559c"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "b1b42a7b78c0c953e4ce00ff0e89f79e1e7fc75dbf0728e47ae6ca1968ad5c20"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[Xyce]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "e7fd2e73c70ddd8ba6f400a0b1a1ce6b720ccb9b"
+git-tree-sha1 = "bd9eadc3f85c8a0ab256f653d78442a2316158fb"
 libc = "musl"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "37ddc126a864530b2dd366f48b11292c7de8354f32b59c9fd08b1d47051e3de8"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.armv7l-linux-musleabihf-cxx03.tar.gz"
+    sha256 = "fa00373f722bbd647dd70e953fada601d265fe7e81e11f9c1e31ee41abe1142b"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.armv7l-linux-musleabihf-cxx03.tar.gz"
 [[Xyce]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "73d4e124e73c908d65637c08c2fcd3bc266eec00"
+git-tree-sha1 = "6bd41d07668423d00e4a5b304d15a7d928136549"
 libc = "musl"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "18ccfdac967c4e0d77b97fe96879c6d6c602d63e3f4aeb97eff70b5d985ea5c2"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.armv7l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "755476afc19d2ed0f4192ad4018e4b7b5004a5dfaa980216abd324f3901b6dd0"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[Xyce]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "8e71307c1582afb53a3dd9191fa415e0b842c781"
+git-tree-sha1 = "58e28c8863e2f5211ce59b5958ee5e1899c73f79"
 libc = "glibc"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "78f5fe8e3ed9c15eea3f933af638a2084c36f31afd79ab8ec58bb2da13e48ad6"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.i686-linux-gnu-cxx03.tar.gz"
+    sha256 = "d55bbae94f5ef698c3441e17077e27ab53fd1a9f7f5c23eceff3fda51c8f094d"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.i686-linux-gnu-cxx03.tar.gz"
 [[Xyce]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "9497d68ee60aa0ea3e0c75b07d29221afbc8b660"
+git-tree-sha1 = "5aa8f35c063bc949d6111c9ca87b54a1696095fb"
 libc = "glibc"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "a9e72abd4a6c09b5459b4c61642f1a7cb3915f0c8b6e253e3f19d8f4fea4ede9"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "29198f61b13f0a679d83a0c17f347dd94a4cc961064be566e595abe9b47a9ba4"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.i686-linux-gnu-cxx11.tar.gz"
 [[Xyce]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "d60649afe38fa6a0d594fa50fba701118f559c40"
+git-tree-sha1 = "40dde53dded909d4d9ad3d472b7e0f37372762d5"
 libc = "musl"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "9146186511c8d06a073029c3b6c5bb68d89191abfd5ddf64b35d58e13ae34683"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.i686-linux-musl-cxx03.tar.gz"
+    sha256 = "7cef27dff3438e9de808da0dcd74d488a5d884a0073dd3d545240bf5bff5867f"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.i686-linux-musl-cxx03.tar.gz"
 [[Xyce]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "7b72e3f7c59bad2b235ddf09168d8bccfa80ab9a"
+git-tree-sha1 = "011601d216f5fcd7be8428e77c3daf10192f5cad"
 libc = "musl"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "7121106ca870bb2698f35bac69d55889c39d0e13979cd471cfb34e51875c84ff"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.i686-linux-musl-cxx11.tar.gz"
+    sha256 = "82b6f80a8e1ff0777420a67efaed8dccd3742f0287485b5e96838c93a9b05859"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.i686-linux-musl-cxx11.tar.gz"
 [[Xyce]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "991bfc0602b3f20e29d665a710233d6f59be354e"
+git-tree-sha1 = "7ef4c4fb939f060763cc0c7e9ba14618e953fec3"
 os = "windows"
 
     [[Xyce.download]]
-    sha256 = "616d1edf3efe9c399cda7b1131fe1746bb3e07a19e31e8168550be16b152d36b"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.i686-w64-mingw32-cxx03.tar.gz"
+    sha256 = "569c2e477662a5c57f944282be9a1d96eede93ff660f56de1892d70d12f4d0c2"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.i686-w64-mingw32-cxx03.tar.gz"
 [[Xyce]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "884fc4139ebc33bd373973358c1e1b570297770b"
+git-tree-sha1 = "09e27c7b86ae26976ca98b9a2c64800bfd461924"
 os = "windows"
 
     [[Xyce.download]]
-    sha256 = "696852ac4f62eab8e9e032371a59b899f25d48a9e4f956178450042fe34ed3b4"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.i686-w64-mingw32-cxx11.tar.gz"
+    sha256 = "c55674a5e18b2df646dc1ed1291144937ddac4467a9566161a7afee1db5079f0"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.i686-w64-mingw32-cxx11.tar.gz"
 [[Xyce]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "600b688d424a1851d9f8b2752c470e18aa7f5762"
+git-tree-sha1 = "fbe3d3b06c3c55bb00e272ce88fffe868e3ad9e0"
 libc = "glibc"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "26af1358622646ab8b4bf18594fb553d9f5206676a15bb86f7e1d60d03d401db"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "a384c67bc485752deb128c121d5fc9290e8f17b1032a4e5b145d4c7603da5694"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.powerpc64le-linux-gnu-cxx03.tar.gz"
 [[Xyce]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "58715272ac63363ef44b66340ce512214d464653"
+git-tree-sha1 = "9efede088f8fdbe545bba42a492384a17497c44c"
 libc = "glibc"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "64e5ffc189cf992f5d2fb7778fd2ab7e44302f34f96b77c203b1591081f2876c"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "24bb7bad50fb1348ab4beac872f0de5167552fa10139f20117a986c1ca7a0bd2"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[Xyce]]
 arch = "x86_64"
-git-tree-sha1 = "cc27c5b5a4a4441beb0ecf57cff8190d92d1af1b"
+git-tree-sha1 = "eaa86b9f52d11890189de624742a24a98cf9ab29"
 os = "macos"
 
     [[Xyce.download]]
-    sha256 = "eb37a87323f3a624ccf2d78b21e58dc3e9c7c55eb57d79372d586bb4994245a3"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "d00704f1779a06c5a2c5a73df613983b4081a5b95610693a11bfca364e230653"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.x86_64-apple-darwin.tar.gz"
 [[Xyce]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "9980473483d83c63c18a034f3d8fbb8447ed032e"
+git-tree-sha1 = "8edc6776c18bd3f05537cd5abb17d39561e7b452"
 libc = "glibc"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "43694562f2399019ec4b1e1a9652e4097bf40dacf57cb6c65b41c922210d895e"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "513b9b638708d4cf96b69df6b19213adbb5e634a9e5dabe8989f1150065bd8a3"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.x86_64-linux-gnu-cxx03.tar.gz"
 [[Xyce]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "aa41df66b8c88dd1a2ff17a30badf441fc073fb1"
+git-tree-sha1 = "fce5567e5e6229af7b62c98379e2c20d922807ec"
 libc = "glibc"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "6a2d904c3ade4eaf4a313b8f6fc7c23ea7b12cbbaa886cb66c7440141223e1c4"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "473a7be526e1650892d8762d1b3744ef749afa6bf3192dbf0d743b7492ccb0ff"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.x86_64-linux-gnu-cxx11.tar.gz"
 [[Xyce]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "24a43a2f61d515804038ffeced2ece2b284defe6"
+git-tree-sha1 = "e3972d0a65e27169cc807d90ce9bef6b9417728e"
 libc = "musl"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "49c6d24cd76885dfb378de0997088834819da2de491a9825f94d32e6d9448fa7"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "f69796e6b4e46dbb78ac4f8a68401b954508db6487eb8f05445cce5a9bde4ace"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.x86_64-linux-musl-cxx03.tar.gz"
 [[Xyce]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "1b7ce39da6587231369fd9d77ec52be6c0e2de12"
+git-tree-sha1 = "c26934f63ecff7bfdff1f4759a0c53cf97a6e5f7"
 libc = "musl"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "c145e91e967845f08d8277d924035174f0aeb415349c57c0e1113a9a60e15074"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "7ce1f836bf0010550d752cadc6a25c4c9c9565571625dde1726a28ca3fcebfb1"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.x86_64-linux-musl-cxx11.tar.gz"
 [[Xyce]]
 arch = "x86_64"
-git-tree-sha1 = "53da732982c362b33c35df2190c08c7ab1f793c1"
+git-tree-sha1 = "48ada310d7b52791c7518dd4fe05698a40048ce8"
 os = "freebsd"
 
     [[Xyce.download]]
-    sha256 = "07b9144f108fc767cf424d481dd037256a59db2eca26c6aa3006022a22379bce"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "24a7ffcf19b40b30dc0187765b81ab1a60cf01dc71bab5358265cd99af8b619d"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.x86_64-unknown-freebsd.tar.gz"
 [[Xyce]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "6f381df31fb508b6b255526af21ded1cf27039db"
+git-tree-sha1 = "e1bc4c60565c1657cd43f5bbf2c7e373a60534af"
 os = "windows"
 
     [[Xyce.download]]
-    sha256 = "fbdecae7d5904f1ff6f1f2c60cc2daca5af087f480a33aad01656e93db907461"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "4bf2c2b20ea6fdda00ac2021dd33fefaf061212d1b65f52604412b05351b0a3f"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.x86_64-w64-mingw32-cxx03.tar.gz"
 [[Xyce]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "dbb676f924589a0f0a3a3fbd4cf3bc59c23f7047"
+git-tree-sha1 = "ec906b27dd802169523e7f8aee68b1856f123b10"
 os = "windows"
 
     [[Xyce.download]]
-    sha256 = "3eaf443baf730b801ed2712abc91b3599ccdab56bf174842f1203716fb5c7775"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.3.1+1/Xyce.v7.3.1.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "f888337d1b072a39355bc112ab2ba701669538de17e6fc6da5c2a085e234399f"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.4.0+0/Xyce.v7.4.0.x86_64-w64-mingw32-cxx11.tar.gz"
