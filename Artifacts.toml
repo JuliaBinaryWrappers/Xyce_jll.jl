@@ -1,288 +1,845 @@
 [[Xyce]]
 arch = "aarch64"
-git-tree-sha1 = "df339115aa7dfcde86034af89cf61f29d9ba2660"
+git-tree-sha1 = "f1e59aa03e1a2b535aebe89b4d51cadd5ec60710"
+libgfortran_version = "5.0.0"
 os = "macos"
 
     [[Xyce.download]]
-    sha256 = "25c337cccabe8da875c67a509c50b8673f25ef2a520caa169ea79fd47ae620c2"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.aarch64-apple-darwin.tar.gz"
+    sha256 = "a306a62403979aefe4e20145b0f20efdce43f80b66866e0889e79cf8344de0d3"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.aarch64-apple-darwin-libgfortran5.tar.gz"
 [[Xyce]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "e66d00a5eb58646acc9dfca8cf6ec4fb49b62040"
+git-tree-sha1 = "8a6746d357ee783fe23306fd1beff4a03c326e1c"
 libc = "glibc"
+libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "4f0bdd321cd4c40fb6bab8d73fb9c1ba846b156c3a313ef7b44898edb09692bf"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "a94ca29b15c74cca067363bd1dd3f54ec9c3618175d032c387683adcdddcb9bd"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.aarch64-linux-gnu-libgfortran5-cxx03.tar.gz"
 [[Xyce]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "5f841466bb36c65ecc0cf837c052e7b69c186fd6"
+git-tree-sha1 = "c5e3512c2e4cba4b7887910e1ae03f5fee7696a5"
 libc = "glibc"
+libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "d9c723af27d4cebbbf8c5279c7c368e53c90162940277fb14d0278e3d89e920d"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "dbc7605d2009fcd69e34eeb68005e453342f2aab80d4ecdc130932a7b6f3d48a"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.aarch64-linux-gnu-libgfortran5-cxx11.tar.gz"
 [[Xyce]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "b694b9cfc939e672c262ca4f37c0044a2592c98a"
+git-tree-sha1 = "4e40f31593c635d15821621306a4e95f075ee977"
 libc = "musl"
+libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "131e6a98e24c6d637bca910837c768f778cb045972af596d6cec6ecc1f85e96b"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.aarch64-linux-musl-cxx03.tar.gz"
+    sha256 = "abc5a1584bd4013bb918d1e1330fe38a52307774a64b3c7175999045df9243e0"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.aarch64-linux-musl-libgfortran5-cxx03.tar.gz"
 [[Xyce]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "dca26e7cb714d69637e4c0ab1764c47cc6f5c45d"
+git-tree-sha1 = "29187a2d9976a92381bb20ed73e9a328a79c2aef"
 libc = "musl"
+libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "151935d04bc1ac8825fdf254f1430f06ec81323239cb12da1029a74377bc619a"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.aarch64-linux-musl-cxx11.tar.gz"
+    sha256 = "a08b644c633c998d1412cc3f145706a9624d5605bbe6d677f05e1c828268f087"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.aarch64-linux-musl-libgfortran5-cxx11.tar.gz"
 [[Xyce]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "136e8d8de07b5587709c56024fef8fe416d1fb0a"
+git-tree-sha1 = "776ad99d76fe655432b2d175e1c670439fb859d4"
 libc = "glibc"
+libgfortran_version = "3.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "e6dada8899d7e511a71968221c3623143c1d2adfef84d7f8ebf62ed5a0c0d2bc"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.armv6l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "7534c706becc629535b411cb84cebfb41edb2f6e7497d63e51b1234f343f6493"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv6l-linux-gnueabihf-libgfortran3-cxx03.tar.gz"
 [[Xyce]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "54eb237325e870afa48fa4594e654dd2720d8e5d"
+git-tree-sha1 = "64eaa12a846cb14b8a7c8159aecf1c420d71b808"
 libc = "glibc"
+libgfortran_version = "3.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "1188cc90db2c1c9be56f7a925c40bcc9cc0559bd020d9568e7a6ffda9b59a5a8"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.armv6l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "f7d63e896b24bd98548455070dab184ca562a1b0d902bd2ae2af86294578e074"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv6l-linux-gnueabihf-libgfortran3-cxx11.tar.gz"
 [[Xyce]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "ef8dec0895c4422b95d572dc38945f16e755f8d1"
-libc = "musl"
+git-tree-sha1 = "2af8f2fccec30406e471d61e4c14119422017b24"
+libc = "glibc"
+libgfortran_version = "4.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "3cce5a67c1956cc5df8664759f555722af104ce7047393cda4bc4405e39a78bc"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.armv6l-linux-musleabihf-cxx03.tar.gz"
+    sha256 = "91dcd4f93b840628652f00285b8f9e1ea0220b49a74e8733c90b2de29c3c5605"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv6l-linux-gnueabihf-libgfortran4-cxx03.tar.gz"
 [[Xyce]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f7d3007ef00739a45e77c306ccfd86e602449363"
-libc = "musl"
+git-tree-sha1 = "e537cafd304452115a17eaa78d5039031d306ca3"
+libc = "glibc"
+libgfortran_version = "4.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "6cef6841a945ee3b958a4f9528ed52cf070b18b1fc71991a7eee277feedd6180"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.armv6l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "266453a5c4fc3b1037bbee515f377f7d46107c18d801dff93950cf56384c112e"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv6l-linux-gnueabihf-libgfortran4-cxx11.tar.gz"
+[[Xyce]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "72c05339e393ff6ea6885129877e84c78dc0a98d"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "d4ee67f6a571c846bb8609b879a90a515799e5182186f80775c96878c85979b3"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv6l-linux-gnueabihf-libgfortran5-cxx03.tar.gz"
+[[Xyce]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "af321c690efef0ff804176c994f2f841dca73b7b"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "2774d09a4d98920d81475856a0040982128b80e513f76435cb93df823e36bddb"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv6l-linux-gnueabihf-libgfortran5-cxx11.tar.gz"
+[[Xyce]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "d0c05bbf5f86abca21e5dab43628d18072124eda"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "4f33703dc7e49de88e38e489afa436ee097d88e9ddb3458227901fa8296e7df4"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv6l-linux-musleabihf-libgfortran3-cxx03.tar.gz"
+[[Xyce]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "36d828456afc278245c005038e374f92219b3496"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "b144de7b7dc4302302da3a5679b6219534deff128f8e467a163769f0ac6cae68"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv6l-linux-musleabihf-libgfortran3-cxx11.tar.gz"
+[[Xyce]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c4bea487c20adbd832bd86be76e15fc24e702e73"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "47e6aa2e0a4064bf37b22edbd934318bd6cdea3f2c55d404875b323326537c4b"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv6l-linux-musleabihf-libgfortran4-cxx03.tar.gz"
+[[Xyce]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "bfc6546e4cd9deecf3a34a8a33edf48033b7c8d2"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "468220da7caed0e1337a776ee0a16a15aab072c1338c903c88c1107ac620bfeb"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv6l-linux-musleabihf-libgfortran4-cxx11.tar.gz"
+[[Xyce]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "de97f8c11cea767f5f6b8a3e0310acdf3ba397e1"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "5e6f65f1c9bc83de4c54630e792991b6c9a5f94ebf3f5b3d6c01f991814f8783"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv6l-linux-musleabihf-libgfortran5-cxx03.tar.gz"
+[[Xyce]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f7063370dc67b5ff96f0083420e89bf0dca07677"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "e8518d2bc188a88489a76723b5b6b648328eb77a3bc7b9fc37c3f3e5e9448ea3"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv6l-linux-musleabihf-libgfortran5-cxx11.tar.gz"
 [[Xyce]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "62e55d9480c7fc363f2fc21370b58e58d35f3cf2"
+git-tree-sha1 = "94a49fbb4de6bd1ba86a302576bcece7ab8f0d74"
 libc = "glibc"
+libgfortran_version = "3.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "301e6ba14d88a75492ef0ffb1c295416489be48d8f702bb6d88de3c2c0dc61af"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "47aa6dc6c46dcbac1965235c6a8a728cec034ee8d342b706ab65c4f3bf7304f2"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv7l-linux-gnueabihf-libgfortran3-cxx03.tar.gz"
 [[Xyce]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "09b46a293243bc14fa50c536d00ba3cc011c397c"
+git-tree-sha1 = "3c72a58f86b2ae4658f86a0cdc852b4fe734c055"
 libc = "glibc"
+libgfortran_version = "3.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "ac44e6c37a4f054919667a483bd6c64f6f4bfc254ff2bf256d42501febe4eb6b"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "53b60e2d6cf1717968a12e9e86eaeea48fc4fbcbe3a1423af826caf0100f2a4e"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv7l-linux-gnueabihf-libgfortran3-cxx11.tar.gz"
 [[Xyce]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "15d747fb210a9b06b64720fded1cce039a726afc"
-libc = "musl"
+git-tree-sha1 = "39d7d981d96b4ec05ea37cf277b1faff5e165f48"
+libc = "glibc"
+libgfortran_version = "4.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "b35aa24696db1b10c81b36e786bdec1f4755922eb58ba34222aa44161ad5ccfb"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.armv7l-linux-musleabihf-cxx03.tar.gz"
+    sha256 = "aedb3254169b5328608c7e58e70ed285dcfa7644f061359d873936b44c2d841d"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv7l-linux-gnueabihf-libgfortran4-cxx03.tar.gz"
 [[Xyce]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "40562bcf7139245d55340faeb642159a4a0cab74"
-libc = "musl"
+git-tree-sha1 = "24c5d40a661c9a396675632e6c36fcae3f3902da"
+libc = "glibc"
+libgfortran_version = "4.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "b10250b0c0974fdb17649a6859b18ff77958c409d085ea0f83cfe04e35071677"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.armv7l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "3978d9c1911859c39c9e467f03c89f43f7a2563af27fe3119325b25e427b8092"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv7l-linux-gnueabihf-libgfortran4-cxx11.tar.gz"
+[[Xyce]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "b457b5f0e9a84f7fddb58ba3a0fadf5bdb3034f6"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "81cdf336161b4a0be4e6832f0b52afc8b69fc8cbe5fddcc7bcf2c3fc99c4d385"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv7l-linux-gnueabihf-libgfortran5-cxx03.tar.gz"
+[[Xyce]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7003edb9e31925d52931da1368c1bc013b4d2fa7"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "242f140c77ec9974bad1e625e76d068539d6d97405c838633f20a9347596c01a"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv7l-linux-gnueabihf-libgfortran5-cxx11.tar.gz"
+[[Xyce]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "5d4bf81e8c1727cabd3a3fe6c8713757b0839da0"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "53b42611e3b18175d523d086146ecd5113141d8f5b4f5ad959f846f4f0bbf416"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv7l-linux-musleabihf-libgfortran3-cxx03.tar.gz"
+[[Xyce]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9b6e14feeb118633f0fbda596bbeeaaa0f4bfd6c"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "79f9f8a862f8c16f83c1cc83771bbadfdf26b8c562f63204f990c60d168a5bd9"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv7l-linux-musleabihf-libgfortran3-cxx11.tar.gz"
+[[Xyce]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "d41e974da6265548e49e368469455d9b4ec11fce"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "3cd990f8796f513c0186186901e61be32930f899e12e4794017fd6dfc8c6c8a9"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv7l-linux-musleabihf-libgfortran4-cxx03.tar.gz"
+[[Xyce]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "31b925fdd39fb2e43a59143e51b0e8373dc81343"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "b3f52a36e0c6322c6f1521ada25b6519904a5b9b61e0f5cf9a69ff0a96e1d63d"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv7l-linux-musleabihf-libgfortran4-cxx11.tar.gz"
+[[Xyce]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4618bc19933b3260d3cb7af70bda2c69b8fa5740"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "1e448640925a78df74434d46956f6987b9e77b50d07256439a67fe2addc88c48"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv7l-linux-musleabihf-libgfortran5-cxx03.tar.gz"
+[[Xyce]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "12ee621c38a279c74069ce14f62abcf906134fdd"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "95ec80fc262a58791e272a784d2ed0cc4ca1191a1c7d785710cb21191c37c7db"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.armv7l-linux-musleabihf-libgfortran5-cxx11.tar.gz"
 [[Xyce]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "6c2b157e5e0d1db1798917f86ac0f619e33ed5cb"
+git-tree-sha1 = "0a69ee6847ebdfed431d43ac577775a165413841"
 libc = "glibc"
+libgfortran_version = "3.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "be114d9c802a89b0acaaa9e0018827bd4e3c406296e36be483ddcc804150a059"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.i686-linux-gnu-cxx03.tar.gz"
+    sha256 = "bee1f272036b164c98717e872d0a2f8947a2dd833e2d10da29af1cce8126374d"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.i686-linux-gnu-libgfortran3-cxx03.tar.gz"
 [[Xyce]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "af801473777f09fecdb203b9bbc3cae7aa8ebab8"
+git-tree-sha1 = "184eea23fdaa306dfcde2f3445b1d46cf4bb8c16"
 libc = "glibc"
+libgfortran_version = "3.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "850d68bd0e87d64354bf8ff0f8c6f1f884e04cc21f0fa47bce67fee975a9344b"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "941ee68db35470f98eb4f0bc6b1e903ca93cdb66d70b003f85e92e6c93faee43"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.i686-linux-gnu-libgfortran3-cxx11.tar.gz"
 [[Xyce]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "fce7b5e3dcf9cd17ded4f54e41af2c889740a8d7"
-libc = "musl"
+git-tree-sha1 = "1da102c1ed6a9d761b580c30de8f444bcc075a78"
+libc = "glibc"
+libgfortran_version = "4.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "c743831819d96b715774df56e5be9a0c971a0a7858909de37e1b795b3f06784f"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.i686-linux-musl-cxx03.tar.gz"
+    sha256 = "bab0dccc6d6a0c9e36b51e8cf70cfda9859e0c406763ba4834adc0571560a1d1"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.i686-linux-gnu-libgfortran4-cxx03.tar.gz"
 [[Xyce]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "1b250345ee870b80770ebf89e76f508631a43a33"
-libc = "musl"
+git-tree-sha1 = "597bb95b92a5ef175828f5ac020f9eb72fc77c9c"
+libc = "glibc"
+libgfortran_version = "4.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "d0cf8567825d5b21c3171ce19587589e458f4d19e8c357969f59850211413dbd"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.i686-linux-musl-cxx11.tar.gz"
+    sha256 = "b87147c658fe48113e627a142c0729b601eb6365f70be9e5e4c87ed04cf5ec8b"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.i686-linux-gnu-libgfortran4-cxx11.tar.gz"
 [[Xyce]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "d2af7288771335150ca702a4d20f7c21976961d0"
+git-tree-sha1 = "bb2eb903b9157770857b326ac759def0133cb8d2"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "d0e02c52ea978f840d06dd50000bd32f9b020ada4df192b211932513c4fb8309"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.i686-linux-gnu-libgfortran5-cxx03.tar.gz"
+[[Xyce]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5cd044b542a436f4ba97114bf23bbd5f0288e143"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "a94afae0f41fdbd0873d70d291ab112539dfb74ba00a7306e44cc829c2f5aff6"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.i686-linux-gnu-libgfortran5-cxx11.tar.gz"
+[[Xyce]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "03d84250b5b316aff0a6a9034d65248ec3230786"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "4aa3613d5b0ee20f1557ff10ac48604d3653a644be4dde398a05f454cd173a94"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.i686-linux-musl-libgfortran3-cxx03.tar.gz"
+[[Xyce]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "086f52758af44fdc2f7e71790fe550f70a39a5dc"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "995b4387265d11e266728e030d02b812e6afaf0ed9752bb41f7db08d4ba07f7f"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.i686-linux-musl-libgfortran3-cxx11.tar.gz"
+[[Xyce]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e61b568caf61f3f3cae96d841048bac5d0a5c4e6"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "4222a8676479a5c01315ee83fb6974615185ade6cf0a838b30ad7686f01c97f3"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.i686-linux-musl-libgfortran4-cxx03.tar.gz"
+[[Xyce]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "075986fb01a81962aa7d41d1b8497cb1483cb06a"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "52d303b60158069429af95ecd7c5b4381e18147c4cc8d4f10eef2b2261333c2b"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.i686-linux-musl-libgfortran4-cxx11.tar.gz"
+[[Xyce]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ca72c8df8e551aa22e43a68a1e292edc54e5ca13"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "0f01e75a4f3adf4964072f1ca019a10844985f717cb9350dd48ed26b1c6f7086"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.i686-linux-musl-libgfortran5-cxx03.tar.gz"
+[[Xyce]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5c0ec292f191e2e71c9e0ad0acdcb326ee008802"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "0daceea623017b9b3a196a05395cbfcfe9f3b4f71adfdd519e546c58725f04e8"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.i686-linux-musl-libgfortran5-cxx11.tar.gz"
+[[Xyce]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "efbabd61fb894363a4cf2ae4623ecc28870aaa92"
+libgfortran_version = "3.0.0"
 os = "windows"
 
     [[Xyce.download]]
-    sha256 = "3686d1d99537add7e946d89e26352450fdcca24640f5b718fb0319ac9e7f09f4"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.i686-w64-mingw32-cxx03.tar.gz"
+    sha256 = "ac04ede280e5d14321b59e2ed1e0d57979ea54f2eb1dce0d090bc8ccae175560"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.i686-w64-mingw32-libgfortran3-cxx03.tar.gz"
 [[Xyce]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "22f1f1db1bf80e4e8a006efae833b03af2b3b132"
+git-tree-sha1 = "2e739589c4cdb63b68cc17ab36b0df8fc304e111"
+libgfortran_version = "3.0.0"
 os = "windows"
 
     [[Xyce.download]]
-    sha256 = "ba4dfabfab5b0fc79c71b7ead32509dc0905701a50745c3036fcb2787b14e970"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.i686-w64-mingw32-cxx11.tar.gz"
+    sha256 = "4371d30ac33eae7c516eda03f7b37c2403d275cafdfe84708a3249367f6c2d2d"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.i686-w64-mingw32-libgfortran3-cxx11.tar.gz"
+[[Xyce]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e3444aff32a01161580528d67d2cee22da66fe05"
+libgfortran_version = "4.0.0"
+os = "windows"
+
+    [[Xyce.download]]
+    sha256 = "9566f5597e702d4b0ec7f86334379e36114a307753fc9ccb5544d7f92f5f6f84"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.i686-w64-mingw32-libgfortran4-cxx03.tar.gz"
+[[Xyce]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "bfd82a834ad83a2cb0909d16245cfcf3b02a5b6f"
+libgfortran_version = "4.0.0"
+os = "windows"
+
+    [[Xyce.download]]
+    sha256 = "d3fc26d962942bb05ab5b4a8d29052a9866fd160cf742736aed2d384a273150b"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.i686-w64-mingw32-libgfortran4-cxx11.tar.gz"
+[[Xyce]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9f5b44d02d4798c477244e2a8b027dd2f8bc21bf"
+libgfortran_version = "5.0.0"
+os = "windows"
+
+    [[Xyce.download]]
+    sha256 = "a2400bfa1219183c438a2a548f5495437d25b2573ac43ff1d0b5d58ab2994133"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.i686-w64-mingw32-libgfortran5-cxx03.tar.gz"
+[[Xyce]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7b782aa4cc8b71eda79525ba397f00255f043800"
+libgfortran_version = "5.0.0"
+os = "windows"
+
+    [[Xyce.download]]
+    sha256 = "548b352d3c8f66d4e701465488facfa10619210adf690c14766a4fbe364efe5c"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.i686-w64-mingw32-libgfortran5-cxx11.tar.gz"
 [[Xyce]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "ca05a5256231c69d720c3cdbfb7519d30bea3556"
+git-tree-sha1 = "05c916597140dbb1b5d2870c4b471cceced968eb"
 libc = "glibc"
+libgfortran_version = "3.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "4b1ed3dfd09cce99a4f424e1b33a7f162f5140bcbd3f9a1960b0deca350014a7"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "2113d69b63a0b0812c9686ae535f3f9a51b225df9d28765ee24c012c4ae309ee"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.powerpc64le-linux-gnu-libgfortran3-cxx03.tar.gz"
 [[Xyce]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "e6fe1db3af83c7f74bb73673814b5226a26d7d8c"
+git-tree-sha1 = "7fe66bfb036edbebf6556d9e2016f797e0ea6ad4"
 libc = "glibc"
+libgfortran_version = "3.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "8936da7acdfb829db9263794c934fb25c9b81ca3ce4814a3ac3c4116efd60c69"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "fb329b63dcf8c035979a9021fc1daa80a81aecce589cd7c9066dfb05bcce2377"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.powerpc64le-linux-gnu-libgfortran3-cxx11.tar.gz"
+[[Xyce]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6b88410696901b27b21de9605dc48594c91eb7ba"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "707181f10e57c23dbb4a3131d62664fad5bece7537d9fb601d5a2f9cce346f1b"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.powerpc64le-linux-gnu-libgfortran4-cxx03.tar.gz"
+[[Xyce]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "69d49bda1da4255c75504ce0e2d98f4aed66880b"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "882115362c12d7684c01a5a651eedd3083486abba7b73540b46852a9e89bd074"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.powerpc64le-linux-gnu-libgfortran4-cxx11.tar.gz"
+[[Xyce]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "8a152017053dab4725c324e5a8f2264a4a168a2c"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "8941c8aefd500bd5f629d99c0654b4a191b2065cda44f5c4d8ce1a4189b4c028"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.powerpc64le-linux-gnu-libgfortran5-cxx03.tar.gz"
+[[Xyce]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5b89ad0bb9286ebaf44ed440cd87ad80162aec48"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "29e3ee70cf44e84f899d55c80de36f33ea40fb7ece02e82e95f49d800188eb45"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.powerpc64le-linux-gnu-libgfortran5-cxx11.tar.gz"
+[[Xyce]]
+arch = "x86_64"
+git-tree-sha1 = "99e9b3cde1a22de495f3359b4f2850912951f81b"
+libgfortran_version = "3.0.0"
+os = "macos"
+
+    [[Xyce.download]]
+    sha256 = "aefd803615e8de2901ba2258ff4f02ed3cb820101425bcb8f6df1864058d9d4b"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-apple-darwin-libgfortran3.tar.gz"
+[[Xyce]]
+arch = "x86_64"
+git-tree-sha1 = "1fea8160242e2d3405fe98cd0303bdb262318941"
+libgfortran_version = "4.0.0"
+os = "macos"
+
+    [[Xyce.download]]
+    sha256 = "1e00d90172ef9e9251a3fa2c58be951628cc0c01761f722ceb519364c922b397"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-apple-darwin-libgfortran4.tar.gz"
 [[Xyce]]
 arch = "x86_64"
 git-tree-sha1 = "9e738fa2c734c6d476ca46f9e67aeff5a2b32087"
+libgfortran_version = "5.0.0"
 os = "macos"
 
     [[Xyce.download]]
     sha256 = "7dbedec81a547dc30b22c51e6b0df7cd35d73ff40ddd5ba408526fc63c8e2bc8"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.x86_64-apple-darwin.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-apple-darwin-libgfortran5.tar.gz"
 [[Xyce]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "6e87109d1fa324cb74fc233794a35dda6ec073f2"
+git-tree-sha1 = "f7dc8bb2416d4ba42b728ecc206c70f27d90014d"
 libc = "glibc"
+libgfortran_version = "3.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "2c5ff15d122d2f91dbd2c2b2f9aa245ec021a3527353046d7a76ef5de2d45ba4"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "a06f2fe873440729eb075f18a97d8189f5f699bb61a108a6cd4157388dd16967"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-linux-gnu-libgfortran3-cxx03.tar.gz"
 [[Xyce]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "eb4529d9b9551b755bcdd6a0e2e5f3a74f644538"
+git-tree-sha1 = "22d14b17bba4afbfbefe89fca65ff537f1bd3b5f"
 libc = "glibc"
+libgfortran_version = "3.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "84daa3d6f6baee0973be6b260cefa0d702a5371806d09cdfa29a4f4c5c5f5266"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "551f6cd93ad96b2439795bc6e3b48ebdbf32228eeefb65b0535bdda03ae75d69"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-linux-gnu-libgfortran3-cxx11.tar.gz"
 [[Xyce]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "6f7b7c972bc92856d13864de5e373e9822987fa9"
-libc = "musl"
+git-tree-sha1 = "7bb9601f2506a2e86b44454899056e947eec5466"
+libc = "glibc"
+libgfortran_version = "4.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "44691cf8a335ace85ebe5646df3867f46639254b209398c4e4dcfc60bb4a5e19"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "ac454a408692c91d3b28266996da1ebad757935426ab5eba79aa0451f0b6f388"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-linux-gnu-libgfortran4-cxx03.tar.gz"
 [[Xyce]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "3782b8ba49c15e9998ef3443b6c35025dcc7def1"
-libc = "musl"
+git-tree-sha1 = "3fb6dec45b0ab30cca6509faaf652038c671b2b5"
+libc = "glibc"
+libgfortran_version = "4.0.0"
 os = "linux"
 
     [[Xyce.download]]
-    sha256 = "eba39d118563fa1644f6c0209e8947a2233417a4be7bba42f1e4dba6ece84ed1"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "b78545582939eb1ffd011bd38fa304ca9d7927006a596bd6bb918f5fad3db2ad"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-linux-gnu-libgfortran4-cxx11.tar.gz"
+[[Xyce]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "99421542b5d56965d253c799634b30d4d25b07e2"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "8b189fa63068dfaabba2cd1b839bfb7deb2decc14d4f0a8b9f9f77d050975d16"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-linux-gnu-libgfortran5-cxx03.tar.gz"
+[[Xyce]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "275642a545576926c2978b640a1f1480bb9c27ee"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "175ea5392ea1cfacb1b271f68013dfbcaacc17b0e209e8adb2c7e6149693740b"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-linux-gnu-libgfortran5-cxx11.tar.gz"
+[[Xyce]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "883cfecc2f988c9b134b67031c0f7862d0a81eab"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "fa824fc99e0346d97969da7c5052bbb255e7245a9bc5fce39b277a7b1db225b1"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-linux-musl-libgfortran3-cxx03.tar.gz"
+[[Xyce]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "381c79931397c478d9a2d4e6b6cc67b74fa875ce"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "63c0df41aa961b6920755d47ae9b881b5c6180f0ba9c719849d291d32f6741c8"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-linux-musl-libgfortran3-cxx11.tar.gz"
+[[Xyce]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9a6b2b74719f97bff24ae47040c5e28e1574943b"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "e201a1648f7be9f7a4ee4354377b85d75a2e2e1757c413a435d51641f10a9376"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-linux-musl-libgfortran4-cxx03.tar.gz"
+[[Xyce]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "71676fd24fdb16e70d1e7a19b7c4a06b143f006a"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "da8915ce29f7192cea65134ede02bb58b98ef3615d3b15944ded618036ce4dca"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-linux-musl-libgfortran4-cxx11.tar.gz"
+[[Xyce]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "82e8f0a12ce900fb98a172c0b140948cb3c1d44a"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "a7fe1c93cdedfa1ea6e58232779afa22946bd8826a25da8116f97979af6f15c3"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-linux-musl-libgfortran5-cxx03.tar.gz"
+[[Xyce]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "606bc21b6c72bcc4abea3c2ef813fe0dbb33142a"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Xyce.download]]
+    sha256 = "88b197b622330f4049fe93f880a351b93fcba19ad7e367a4ec71229806f208b3"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-linux-musl-libgfortran5-cxx11.tar.gz"
+[[Xyce]]
+arch = "x86_64"
+git-tree-sha1 = "f83e76f73c15890b5941bc493af179b2e17882e9"
+libgfortran_version = "3.0.0"
+os = "freebsd"
+
+    [[Xyce.download]]
+    sha256 = "6013613aefa851b915f8e8e5e255e3dd123237a045dc0b0b360a819fbc45c0fc"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-unknown-freebsd-libgfortran3.tar.gz"
+[[Xyce]]
+arch = "x86_64"
+git-tree-sha1 = "8dad755e0019bd0576b500542afed78b104cb4de"
+libgfortran_version = "4.0.0"
+os = "freebsd"
+
+    [[Xyce.download]]
+    sha256 = "4b77c5778e9ebc2645d09a19e4e016873e61765931361a0da8b223aa70b656c0"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-unknown-freebsd-libgfortran4.tar.gz"
 [[Xyce]]
 arch = "x86_64"
 git-tree-sha1 = "a5ea2668e490dab44435fa47121fcbf6917ffc5f"
+libgfortran_version = "5.0.0"
 os = "freebsd"
 
     [[Xyce.download]]
     sha256 = "74907c4e88940f671373fd5386a5d0aa45efa739aabcc6dce46496f8983f6064"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.x86_64-unknown-freebsd.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-unknown-freebsd-libgfortran5.tar.gz"
 [[Xyce]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "eb340aeb2cc31d5fae3468e01cac81e8bf777625"
+git-tree-sha1 = "9f5ad642ebbb2d8e56f2cefc99113b05198da7e0"
+libgfortran_version = "3.0.0"
 os = "windows"
 
     [[Xyce.download]]
-    sha256 = "032c113bbe0a29de8643a3dc242aa02259579f4c9e05b2a8215883ff8c8f8ac1"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "1b4ba394441bc2165fcd2c3f8783f011c9e431217ec80166be862136ba0db34a"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-w64-mingw32-libgfortran3-cxx03.tar.gz"
 [[Xyce]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "bb8d04300b693fab42c3f94315f33a3b292446f9"
+git-tree-sha1 = "3f99a4bf7876262a277bcbdc9f6cd67afde5a8bc"
+libgfortran_version = "3.0.0"
 os = "windows"
 
     [[Xyce.download]]
-    sha256 = "9fac24857dc728e54cea8d5dcdd83514b2240dfb889cd54f380d7aa668570676"
-    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+0/Xyce.v7.6.0.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "a460e41092b68f4c904fd8f37707299a8a2e254fe520f972e8196647e6ac2853"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-w64-mingw32-libgfortran3-cxx11.tar.gz"
+[[Xyce]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "8d9fd84e2b90b4106dafc779bb5d0d11b356e20e"
+libgfortran_version = "4.0.0"
+os = "windows"
+
+    [[Xyce.download]]
+    sha256 = "44747b96cc732f28b90a217521d4e4c1ba8094b54a1e44bea13ca36796a479f0"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-w64-mingw32-libgfortran4-cxx03.tar.gz"
+[[Xyce]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8bab963b05838596f3d2b22f3f51622be4a2e490"
+libgfortran_version = "4.0.0"
+os = "windows"
+
+    [[Xyce.download]]
+    sha256 = "eaddcb079bb553bd1ca1d55853a4577080a46be88bd41e0a22da5a30183d27c5"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-w64-mingw32-libgfortran4-cxx11.tar.gz"
+[[Xyce]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "422bd3a3bb38302e54b2f142d383aa1eb9aac02c"
+libgfortran_version = "5.0.0"
+os = "windows"
+
+    [[Xyce.download]]
+    sha256 = "ab3b4b2c85c84817fefc5443c834167631b63855670ebf09cc492130c91a06e9"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-w64-mingw32-libgfortran5-cxx03.tar.gz"
+[[Xyce]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ba8677784a9af14657255dd7d96aaa82ae6d6069"
+libgfortran_version = "5.0.0"
+os = "windows"
+
+    [[Xyce.download]]
+    sha256 = "dfdb28dbb86416bc50d0097ee7f71af291220ee4636fe26411ce44d87e820434"
+    url = "https://github.com/JuliaBinaryWrappers/Xyce_jll.jl/releases/download/Xyce-v7.6.0+1/Xyce.v7.6.0.x86_64-w64-mingw32-libgfortran5-cxx11.tar.gz"
